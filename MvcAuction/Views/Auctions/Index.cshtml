@@ -1,0 +1,13 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    
+}
+
+<h2>Index</h2>
+<p> This is our view !</p>
+
+@if(TempData["SuccessMessage"]!=null)
+{
+    <div class="success-message">@TempData["SuccessMessage"]</div>
+}
